@@ -1,0 +1,55 @@
+.section {
+  float: left;
+  width: 66.6%;
+}
+.aside {
+  float: right;
+  width: 31%;
+}
+.box-title {
+  background: #4D4D4D;
+  padding: 10px 15px;
+}
+.box-title h1 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+}
+.box-data {
+  background: #666;
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: -5px;
+}
+.data-left {
+  float: left;
+}
+.data-right {
+  float: right;
+}
+.article {
+  text-align: left;
+  margin: 15px 0;
+}
+.article h2 {
+  font-size: 15px;
+}
+.article p {
+  margin: 10px 0;
+  line-height: 1.4;
+  text-align: justify;
+}
+.publicidad {
+  margin-bottom: 15px;
+}
+.box-return {
+  text-align: right;
+}
+.box-return a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4D4D4D;
+  color: #fff;
+  width: 150px;
+  text-align: center;
+}

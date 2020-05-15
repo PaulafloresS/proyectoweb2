@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  font-size: 14px;
+  color: #555;
+  background: #ddd;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+img {
+  max-width: 100%;
+}
+.clear {
+  clear: both;
+}
+#main {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+}
+#content {
+  text-align: center;
+}
+.section {
+
+}
+.box-news {
+  display: inline-block;
+  margin: 10px;
+  width: 22%;
+  box-shadow: 2px 2px 20px #ccc;
+  text-align: left;
+  vertical-align: top;
+}
+.box-news a {
+  display: block;
+}
+.box-news a:hover {
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-name: buzz-out;
+  animation-timing-function: linear;
+}
+.box-text {
+  padding: 15px;
+}
+.box-text h2 {
+  font-size: 18px;
+  color: #333;
+}
+.box-rating {
+  background: #555;
+  color: #fff;
+  padding: 8px;
+}
+.box-text .category {
+  display: block;
+  margin: 8px 0;
+  color: #222;
+}
+.box-rating .view,
+.box-rating .rating {
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  font-size: 13px;  
+}
+.box-rating .view {
+  background-image: url('../img/view.png');
+  margin-right: 10px;
+}
+.box-rating .rating {
+  background-image: url('../img/rating.png');
+}
+
+/* ANIMACIONES */
+@keyframes buzz-out {
+  10% {
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    transform: translateX(1px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-1px) rotate(0deg);
+  }
+}
